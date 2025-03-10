@@ -2,7 +2,7 @@ let sendButton = document.getElementById('sendButton');
 let messageInput = document.getElementById('messageInput');
 let messageList = document.getElementById('messageList');
 let username ="";
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('https://chat-f3n2.onrender.com');
 username=localStorage.getItem('username');
 if(username === null){
     username = prompt('Enter your username');
