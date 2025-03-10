@@ -1,0 +1,68 @@
+body{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+.msgcontainer{
+    
+    height: 100vh;
+    background-color: rgb(85, 166, 168);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.msg{
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 40%;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.msg h1{
+    
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid gray;
+}
+.msg p{
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.othermsg{
+    background-color: black;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 50%;
+    
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+.othermsg h1{
+    
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid gray;
+}
+.othermsg p{
+    color: white;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.cont{
+    width: 40%;
+}
+.inputs
+{
+    
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
