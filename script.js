@@ -43,7 +43,7 @@ socket.onmessage = function(event) {
 }
 setInterval(() => {
     sendCommand('get');
-}, 1000);
+}, 100);
 sendButton.onclick = function() {
     sendCommand('send', JSON.stringify({username: username, message: messageInput.value}));
     messageInput.value = '';
