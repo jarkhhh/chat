@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/chat', {  useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/chat');
 const messageSchema = new mongoose.Schema({ 
     user: String, 
     message: String, 
